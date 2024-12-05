@@ -48,12 +48,13 @@ const pessoa = {
     conhecimentos: conhecimentos
 }
 
-console.log(typeof nome);
-console.log(typeof idade);
-console.log(typeof ehMaiorDeIdade);
-console.log(typeof conhecimentos);
-console.log(typeof pessoa);
+console.log(typeof nome); // string
+console.log(typeof idade); // number
+console.log(typeof ehMaiorDeIdade); // boolean
+console.log(typeof conhecimentos); // object
+console.log(typeof pessoa); // object
 
 
-console.log(carroDaMaria2 instanceof Carro)
-console.log(conhecimentos instanceof Array)
+console.log(carroDaMaria2 instanceof Carro) // true
+console.log(conhecimentos instanceof Array)  // true
+console.log(conhecimentos instanceof Carro) // false
