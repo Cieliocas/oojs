@@ -56,3 +56,7 @@ function exibeAtributo(nomeAtributo) {
 }
 
 exibeAtributo('nome');
+
+if (pessoa['sobrenome']) {
+    console.log("Existe o atributo sobrenome");
+}
