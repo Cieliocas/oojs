@@ -35,3 +35,25 @@ const carroDaMaria2 = new Carro('Fiat', 'Uno', 2019, 2018);
 
 console.log(carroDoJoao2);
 console.log(carroDaMaria2);
+
+const nome  = "cielio"
+const idade = 25
+const ehMaiorDeIdade = true
+const conhecimentos = ['HTML', 'CSS', 'JavaScript']
+
+const pessoa = {
+    nome: nome,
+    idade: idade,
+    ehMaiorDeIdade: ehMaiorDeIdade,
+    conhecimentos: conhecimentos
+}
+
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof ehMaiorDeIdade);
+console.log(typeof conhecimentos);
+console.log(typeof pessoa);
+
+
+console.log(carroDaMaria2 instanceof Carro)
+console.log(conhecimentos instanceof Array)
