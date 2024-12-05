@@ -1,4 +1,4 @@
-const carroDoJoao = { // Objeto
+const carroDoJoao = { // Objeto literal
     marca: 'Ford', // atributo
     modelo: 'Fiesta', // atributo
     anoModelo: 2020, // atributo
@@ -30,7 +30,7 @@ function Carro(marca, modelo, anoModelo, anoFabricacao) {
 
 }
 
-const carroDoJoao2 = new Carro('Ford', 'Fiesta', 2020, 2019);
+const carroDoJoao2 = new Carro('Ford', 'Fiesta', 2020, 2019); // Instância
 const carroDaMaria2 = new Carro('Fiat', 'Uno', 2019, 2018);
 
 console.log(carroDoJoao2);
@@ -48,13 +48,11 @@ const pessoa = {
     conhecimentos: conhecimentos
 }
 
-console.log(typeof nome); // string
-console.log(typeof idade); // number
-console.log(typeof ehMaiorDeIdade); // boolean
-console.log(typeof conhecimentos); // object
-console.log(typeof pessoa); // object
+console.log(pessoa.nome);
+console.log(pessoa['nome']);
 
+function exibeAtributo(nomeAtributo) {
+    console.log(pessoa[nomeAtributo]);
+}
 
-console.log(carroDaMaria2 instanceof Carro) // true
-console.log(conhecimentos instanceof Array)  // true
-console.log(conhecimentos instanceof Carro) // false
+exibeAtributo('nome');
