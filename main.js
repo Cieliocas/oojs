@@ -17,3 +17,16 @@ const carroDaMaria = {
         console.log('Acelerando...');
     }
 }
+
+
+// Criação do Construtor
+function Carro(marca, modelo, anoModelo, anoFabricacao) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.anoModelo = anoModelo;
+    this.anoFabricacao = anoFabricacao;
+    this.acelerar = function() {
+        console.log('Acelerando...');
+    }
+
+}
