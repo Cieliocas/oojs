@@ -30,3 +30,9 @@ function Carro(marca, modelo, anoModelo, anoFabricacao) {
     }
 
 }
+
+const carroDoJoao2 = new Carro('Ford', 'Fiesta', 2020, 2019);
+const carroDaMaria2 = Carro('Fiat', 'Uno', 2019, 2018);
+
+console.log(carroDoJoao2);
+console.log(carroDaMaria2);
