@@ -1,6 +1,9 @@
-const carro = {
-    marca: 'Ford',
-    modelo: 'Fiesta',
-    anoModelo: 2020,
-    anoFabricacao: 2019,
+const carro = { // Objeto
+    marca: 'Ford', // atributo
+    modelo: 'Fiesta', // atributo
+    anoModelo: 2020, // atributo
+    anoFabricacao: 2019, // atributo
+    acelerar: function() {  // Método
+        console.log('Acelerando...');
+    }
 }
