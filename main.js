@@ -48,17 +48,19 @@ const pessoa = {
     conhecimentos: conhecimentos
 }
 
-console.log(pessoa.nome);
-console.log(pessoa['nome']);
+console.log(pessoa.nome); // exibe o nome
+console.log(pessoa['nome']); // exibe o nome de outra forma
 
 function exibeAtributo(nomeAtributo) {
     console.log(pessoa[nomeAtributo]);
 }
 
-exibeAtributo('nome');
+exibeAtributo('nome'); // exibe o nome através de uma função
 
 pessoa.sobrenome = null; //pegadinha kskskks ele tem mas é vazio
+pessoa.sobrenome = undefined; //pegadinha kskskks ele tem mas é indefinido
 
-if (pessoa['sobrenome']) {
+
+if (pessoa['sobrenome']) { // se for null ou undefined ele não exibe o resultado esperado
     console.log("Existe o atributo sobrenome");
 }
