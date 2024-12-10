@@ -1,4 +1,4 @@
-# Módulo 24: Orientação a Objetos com JavaScript
+# Módulo 24: Orientação a Objetos com JavaScript 📚
 
 Chegamos ao final do Módulo 24, onde desenvolvi uma base sólida em programação orientada a objetos (POO) utilizando JavaScript. Abaixo está o resumo do que aprendi e pratiquei:
 
@@ -26,7 +26,7 @@ Chegamos ao final do Módulo 24, onde desenvolvi uma base sólida em programaç�
 
 ---
 
-## Module 24: Object-Oriented Programming with JavaScript
+## Module 24: Object-Oriented Programming with JavaScript 📚
 
 We’ve reached the end of Module 24, where I built a solid foundation in object-oriented programming (OOP) using JavaScript. Below is a summary of what I learned and practiced:
 
