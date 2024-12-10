@@ -64,3 +64,7 @@ pessoa.sobrenome = undefined; //pegadinha kskskks ele tem mas é indefinido
 if (pessoa['sobrenome']) { // se for null ou undefined ele não exibe o resultado esperado
     console.log("Existe o atributo sobrenome");
 }
+
+if ('sobrenome' in pessoa) { // para verificar se o atributo existe
+    console.log("Contém o atributo sobrenome");
+}
