@@ -42,11 +42,24 @@ function Estagiario(nome) {
     }
 }
 
+function Gerente(nome) {
+    Funcionario.call(this, nome, 'Gerente', 10000);
+
+    this.aumento = function() {
+        const novoSalario = this.getSalario() * 1.15;
+        this.setSalario(novoSalario);
+    }
+}
+
 const funcionario1 = new Funcionario('Maria', 'Dev Front-end', 5000);
 const funcionario2 = new Estagiario('João');
+const funcionario3 = new Gerente('Paula');
 
 funcionario1.aumento();
 console.log(funcionario1.getSalario());
 
 funcionario2.aumento();
 console.log(funcionario2.getSalario());
+
+funcionario3.aumento();
+console.log(funcionario3.getSalario());
