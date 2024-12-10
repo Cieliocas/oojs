@@ -35,8 +35,12 @@ function Funcionario(nome, cargo, salario) {
     Pessoa.call(this, nome);
 }
 
+function Estagiario(nome) {
+
+}
+
 const funcionario1 = new Funcionario('Maria', 'Dev Front-end', 5000);
-const funcionario2 = new Funcionario('João', 'Dev Back-end', 6000);
+const funcionario2 = new Funcionario('João', 'Estagiario', 2500);
 
 funcionario1.aumento();
 console.log(funcionario1.getSalario());
