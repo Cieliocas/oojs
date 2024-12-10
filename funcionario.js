@@ -14,6 +14,12 @@ function Funcionario(nome, cargo, salario) {
         return _salario;
     }
 
+    this.aumentaSalario = function(valor) {
+        if (typeof valor === 'number') {
+            _salario += valor;
+        }  
+    }
+
     this.dizCargo = function() {
         console.log(this.nome + ' é ' + this.cargo);
     }
@@ -26,6 +32,6 @@ const funcionario1 = new Funcionario('Maria', 'Dev Front-end', 5000);
 funcionario1.dizOi();
 funcionario1.dizCargo();
 
-
+funcionario1.aumentaSalario('mil');
 
 console.log(funcionario1.retornaSalario());
