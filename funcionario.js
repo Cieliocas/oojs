@@ -10,13 +10,14 @@ function Funcionario(nome, cargo, salario) {
     // this.salario = salario;
     let _salario = salario;
 
-    this.retornaSalario = function() {
-        return _salario;
+    // getters e setters
+    this.getSalario = function() {
+        return `O salário de ${this.nome} é R$ ${_salario}`;
     }
 
-    this.aumentaSalario = function(valor) {
+    this.setSalario = function(valor) {
         if (typeof valor === 'number') {
-            _salario += valor;
+            _salario = valor;
         }  
     }
 
@@ -32,6 +33,6 @@ const funcionario1 = new Funcionario('Maria', 'Dev Front-end', 5000);
 funcionario1.dizOi();
 funcionario1.dizCargo();
 
-funcionario1.aumentaSalario('mil');
+funcionario1.setSalario('mil');
 
-console.log(funcionario1.retornaSalario());
+console.log(funcionario1.getSalario());
