@@ -20,3 +20,6 @@ const funcionario1 = new Funcionario('Maria', 'Dev Front-end', 5000);
 
 funcionario1.dizOi();
 funcionario1.dizCargo();
+
+funcionario1.salario = 1000
+console.log(funcionario1)
