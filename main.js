@@ -48,8 +48,6 @@ const pessoa = {
     conhecimentos: conhecimentos
 }
 
-console.log(pessoa.nome); // exibe o nome
-console.log(pessoa['nome']); // exibe o nome de outra forma
 
 function exibeAtributo(nomeAtributo) {
     console.log(pessoa[nomeAtributo]);
@@ -57,9 +55,10 @@ function exibeAtributo(nomeAtributo) {
 
 exibeAtributo('nome'); // exibe o nome através de uma função
 
-pessoa.sobrenome = null; //pegadinha kskskks ele tem mas é vazio
-pessoa.sobrenome = undefined; //pegadinha kskskks ele tem mas é indefinido
-
+// pessoa.sobrenome = null; // pegadinha kskskks ele tem mas é vazio
+// pessoa.sobrenome = undefined; // pegadinha kskskks ele tem mas é indefinido
+pessoa['sobrenome'] = 'Silva'; // adiciona o sobrenome
+pessoa.nome = 'Cielio'; // altera o nome
 
 if (pessoa['sobrenome']) { // se for null ou undefined ele não exibe o resultado esperado
     console.log("Existe o atributo sobrenome");
@@ -68,3 +67,6 @@ if (pessoa['sobrenome']) { // se for null ou undefined ele não exibe o resultad
 if ('sobrenome' in pessoa) { // para verificar se o atributo existe
     console.log("Contém o atributo sobrenome");
 }
+
+console.log(pessoa.nome); // exibe o nome
+console.log(pessoa['nome']); // exibe o nome de outra forma
