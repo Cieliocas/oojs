@@ -45,3 +45,52 @@ Este projeto é uma implementação prática dos conceitos de **programação or
 ```plaintext
 Tipo: Lanche | Nome: Croissant | Categoria: salgado | Ingrediente: Queijo
 Tipo: Lanche | Nome: Pastel | Categoria: salgado | Ingrediente: Carne
+
+## Project: Object-Oriented Programming with JavaScript - Food and Drink Classes
+
+This project is a practical implementation of **Object-Oriented Programming (OOP)** concepts using JavaScript. It demonstrates the creation and manipulation of classes and prototypes, showcasing inheritance, polymorphism, and encapsulation in a simple and functional manner.
+
+---
+
+### Project Structure
+
+1. **Class: Comida (Food)**:
+   - Base class containing properties:
+     - `tipo` (type): General type of the item (e.g., Snack or Drink).
+     - `nome` (name): Name of the item.
+     - `categoria` (category): Category of the item (e.g., sweet, savory, flavor).
+     - `ingrediente` (ingredient): Main ingredient or packaging.
+   - Includes the method:
+     - `displayInfo()`: Logs all object information to the console.
+
+2. **Class: Lanche (Snack)**:
+   - Inherits from `Comida`.
+   - Sets `tipo` as "Snack" and `categoria` as "savory".
+   - Overrides the `displayInfo()` method to reuse the parent class (`Comida`) method.
+
+3. **Class: Bebida (Drink)**:
+   - Inherits from `Comida`.
+   - Sets `tipo` as "Drink".
+   - Allows customization of `sabor` (flavor) and `embalagem` (packaging).
+   - Overrides the `displayInfo()` method to reuse the parent class (`Comida`) method.
+
+---
+
+### Features
+
+- **Instance Creation**:
+  - Snacks: `Lanche('Croissant', 'Cheese')` and `Lanche('Pastry', 'Meat')`.
+  - Drinks: `Bebida('Soda', 'CocaCola', 'Can')` and `Bebida('Juice', 'Orange', 'Cup')`.
+
+- **Information Display**:
+  - All instances can call the `displayInfo()` method to print their properties to the console.
+
+---
+
+### Output Examples
+
+#### Snacks:
+```plaintext
+Type: Snack | Name: Croissant | Category: savory | Ingredient: Cheese
+Type: Snack | Name: Pastry | Category: savory | Ingredient: Meat
+
