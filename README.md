@@ -52,7 +52,7 @@ This project is a practical implementation of **Object-Oriented Programming (OOP
 
 ---
 
-### Project Structure
+# Project Structure
 
 1. **Class: Comida (Food)**:
    - Base class containing properties:
