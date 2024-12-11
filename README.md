@@ -1,4 +1,4 @@
-# Projeto: Orientação a Objetos com JavaScript - Classes de Comidas e Bebidas
+# [PT-BR] Projeto: Orientação a Objetos com JavaScript - Classes de Comidas e Bebidas 🥐🥤
 
 Este projeto é uma implementação prática dos conceitos de **programação orientada a objetos (POO)** com JavaScript. Ele explora a criação e manipulação de classes e protótipos, implementando herança, polimorfismo e encapsulamento de maneira simples e funcional.
 
@@ -46,13 +46,13 @@ Este projeto é uma implementação prática dos conceitos de **programação or
 Tipo: Lanche | Nome: Croissant | Categoria: salgado | Ingrediente: Queijo
 Tipo: Lanche | Nome: Pastel | Categoria: salgado | Ingrediente: Carne
 ```
-## Project: Object-Oriented Programming with JavaScript - Food and Drink Classes
+# [ENG] Project: Object-Oriented Programming with JavaScript - Food and Drink Classes 🥐🥤
 
 This project is a practical implementation of **Object-Oriented Programming (OOP)** concepts using JavaScript. It demonstrates the creation and manipulation of classes and prototypes, showcasing inheritance, polymorphism, and encapsulation in a simple and functional manner.
 
 ---
 
-# Project Structure
+### Project Structure
 
 1. **Class: Comida (Food)**:
    - Base class containing properties:
