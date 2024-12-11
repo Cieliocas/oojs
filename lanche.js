@@ -29,18 +29,17 @@ Bebida.prototype.displayInfo = function() {
     Comida.prototype.displayInfo.call(this);
 };
 
-// test lanches
+// lanches - instancias
 const lanche1 = new Lanche('Croissant', 'Queijo');
 const lanche2 = new Lanche('Pastel', 'Carne');
 
-lanche1.displayInfo();
-lanche2.displayInfo();
-
-
-// test bebidas
+// bebidas - instancias
 const bebida1 = new Bebida('Refrigerante', 'CocaCola', 'Lata');
 const bebida2 = new Bebida('Suco', 'Laranja', 'Copo');
 
-
+// test lanches
+lanche1.displayInfo();
+lanche2.displayInfo();
+// test bebidas
 bebida1.displayInfo();
 bebida2.displayInfo();
