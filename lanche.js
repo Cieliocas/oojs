@@ -46,4 +46,6 @@ lanche2.displayInfo();
 bebida1.displayInfo();
 bebida2.displayInfo();
 
-// Teste output: Tipo: Lanche | Nome: Croissant | Categoria: salgado | Ingrediente: Queijo
+// Teste output lanche: Tipo: Lanche | Nome: Croissant | Categoria: salgado | Ingrediente: Queijo
+
+// Teste output bebida: Tipo: Bebida | Nome: Refrigerante | Categoria: CocaCola | Ingrediente: Lata
