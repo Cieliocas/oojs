@@ -45,3 +45,5 @@ lanche2.displayInfo();
 // test bebidas
 bebida1.displayInfo();
 bebida2.displayInfo();
+
+// Teste output: Tipo: Lanche | Nome: Croissant | Categoria: salgado | Ingrediente: Queijo
