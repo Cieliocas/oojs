@@ -45,7 +45,7 @@ Este projeto é uma implementação prática dos conceitos de **programação or
 ```plaintext
 Tipo: Lanche | Nome: Croissant | Categoria: salgado | Ingrediente: Queijo
 Tipo: Lanche | Nome: Pastel | Categoria: salgado | Ingrediente: Carne
-
+```
 ## Project: Object-Oriented Programming with JavaScript - Food and Drink Classes
 
 This project is a practical implementation of **Object-Oriented Programming (OOP)** concepts using JavaScript. It demonstrates the creation and manipulation of classes and prototypes, showcasing inheritance, polymorphism, and encapsulation in a simple and functional manner.
